@@ -1,0 +1,62 @@
+.country-section {
+    margin: 3rem auto;
+}
+.country-card {
+    width: 85%;
+    margin: 0 auto 2rem auto;
+    line-height: 0.8rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+@media screen and (min-width: 768px) {
+    .country-card {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .country-card {
+        width: 30%;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .country-card {
+        width: 22%;
+    }
+    .country-section {
+        width: 85%;
+    }
+    
+}
+.country-flag {
+    width: 100%;
+    height:auto;
+    border-top-right-radius:0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+.country-name {
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    line-height: 1rem;
+}
+.bold {
+    font-weight: 800;
+}
+.content {
+    padding: 2rem 1.5rem;
+}
+.detail-button {
+    border:none;
+    background-color: darkslategray;
+    color:white;
+    padding: 0.7rem 1.5rem;
+    margin-top:1rem;
+    border-radius: 0.2rem;
+    font-weight: 600;
+}
+.detail-button:hover {
+    background-color: darkgreen;
+    transition: all 0.5s;
+}
